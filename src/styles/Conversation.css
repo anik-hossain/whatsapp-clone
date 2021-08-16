@@ -1,0 +1,93 @@
+.conversation {
+  display: flex;
+  flex-direction: column;
+  flex: 0.65;
+}
+
+.conversation_header {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #d3d3d3;
+}
+
+.conversation_header_info {
+  flex: 1;
+  padding-left: 20px;
+}
+
+.conversation_header_info h3 {
+  margin-bottom: 3px;
+  font-weight: 500;
+}
+
+.conversation_header_info > p {
+  color: gray;
+}
+
+.conversation_body {
+  background-image: url(https://github-production-user-asset-6210df.s3.amazonaws.com/15075759/28719144-86dc0f70-73b1-11e7-911d-60d70fcded21.png);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  flex: 1;
+  padding: 30px;
+  overflow-y: scroll;
+}
+
+.conversation_name {
+  font-size: xx-small;
+  font-weight: 800;
+  position: absolute;
+  top: -15px;
+}
+
+.conversation_message {
+  background-color: #fff;
+  font-size: 16px;
+  padding: 10px;
+  width: fit-content;
+  margin-bottom: 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.conversation_reciever {
+  background-color: #dcf8c6;
+  margin-left: auto;
+}
+
+.conversation_time {
+  margin-left: 10px;
+  font-size: xx-small;
+}
+
+.conversation_footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+  border-top: 1px solid #d3d3d3;
+}
+
+.conversation_footer form {
+  display: flex;
+  flex: 1;
+}
+
+.conversation_footer form input {
+  border-radius: 30px;
+  padding: 10px;
+  border: none;
+  flex: 1;
+  outline: none;
+}
+
+.conversation_footer form button {
+  display: none;
+}
+
+.conversation_footer > .MuiSvgIcon-root {
+  padding: 10px;
+  color: #808080;
+}
